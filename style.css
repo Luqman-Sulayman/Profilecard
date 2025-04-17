@@ -1,0 +1,61 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: #f0f0f0;
+        }
+        .card {
+            background: rgb(27, 87, 45);
+            padding: 5rem;
+            border-radius: 10px;
+            width: 40rem;
+            height: 45rem;
+            text-align: center;
+        }
+        .profile-pic {
+            width: 180px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 1rem;
+            border-color: red;
+        }
+        .social-links {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #b5000f;
+        }
+        h1 {
+            color: #6b1467;
+            font-size: 3rem;
+        }
+        h2, p {
+            font-size: 1.8rem;
+            font-style: italic;
+        }
+        @media (max-width: 480px) {
+            .card {
+                padding: 1rem;
+            }
+        }
+        @media (max-width: 768px) {
+            .card {
+                padding: 4rem;
+            }    
+        }
+    
